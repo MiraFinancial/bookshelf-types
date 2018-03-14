@@ -303,7 +303,8 @@ declare namespace Bookshelf {
 
 	interface SerializeOptions {
 		shallow?: boolean;
-		omitPivot?: boolean;
+    omitPivot?: boolean;
+    omitNew?: boolean;
 	}
 
 	interface SetOptions {
